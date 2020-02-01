@@ -1,0 +1,40 @@
+window -rtf true -title "Stairmaster";
+columnLayout;
+    floatSliderGrp -label "Step H" -field true sliderH;
+    floatSliderGrp -label "Step D" -field true sliderD;
+    floatSliderGrp -label "Step W" -field true sliderW;
+    intSliderGrp -label "No Steps" -field true sliderSteps;
+    floatSliderGrp -label "Rail H" -field true sliderRH;
+    button -label "makeStairs" -command "makeStairs";
+
+showWindow;
+// Make the Stairs
+proc makeStairs () {
+//query sliders for values
+float $stepH = floatSliderGrp -q -value "sliderH";
+float $stepW = floatSliderGrp -q -value "sliderW";
+float $stepD = floatSliderGrp -q -value "sliderD";
+int $numSteps = intSliderGrp -q -value "sliderSteps";
+float $railH = floatSliderGrp -q -value "sliderRH";
+//calculate other values
+float $totH = $stepH * $numSteps;
+float $totD = $stepD * $numSteps;
+float $railAngle = atand($totD/$totH);
+float $railLen = sqrt($totH*$totH + $totD*$totD);
+//make steps and ballusters
+for ($i = 0; $i < $numSteps; ++$i) {
+polyCube -h $stepH -w $stepW -d $stepD ;
+move -r 0 ($stepH*$i) ($stepD*$i);
+if ($railH > 0 ) {
+polyCylinder -r 0.5 -h $railH;
+move -r ($stepW/2) ($stepH*$i + 0.5*$railH) ($stepD*$i);
+}
+}
+//make rails
+if ($railH > 0) {
+    polyCylinder -r 0.5 -h $railLen;
+    rotate -r $railAngle; 
+    move -r ($stepW/2) ($totH/2 + $railH - 0.5*$stepH) ($totD/2 - 0.5*$stepD);
+}
+
+}
