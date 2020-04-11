@@ -4,8 +4,13 @@ This repository is for **Visual programming** lecture related material and assig
 I've not uploaded lecture materials due to copyright issues.  
 
 ---
-## Index
-
+## Summary
+<p align = "center">
+<img src = "./Chapter 02. Select Objects/img/random_select.PNG", height = 350></img>
+<img src = "./img/Screenshot_01.PNG", height = 350></img>
+<img src = "./img/Screenshot_assignment3.PNG", height = 350></img>
+<img src = "./img/캡처.PNG", height = 350></img>
+</p>
 
 ---
 
