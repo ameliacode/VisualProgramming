@@ -1,8 +1,10 @@
 # Instruction for Teapot Bubble Generator usage
+This function can randomly generate about 1.0 radius sized sphere polygons(bubbles).  
+Notify that users cannot control the bubble sizes before running the code.   
 
 
 ## 1. Import teapot.obj or any obj you like.  
-For better result, scale the object 9 times bigger than the original one. <br>    
+For better result, scale the teapot.obj 9 times larger. <br>    
 ![Importing teapot](./img/1.PNG)  
   
 
@@ -12,7 +14,7 @@ With the window opened, select the object(object mode) in the screen and press "
 
 
 ## 3. Make Nurb sphere
-By making the sphere, this decides a desired space for bubbles you want to add. <br>   
+By making the sphere, this decides a desired space for bubbles you want to add. <br>
 ![Make a range for bubbles](./img/3.PNG)  
 
 
