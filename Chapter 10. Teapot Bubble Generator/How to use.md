@@ -2,7 +2,7 @@
 
 
 ## 1. Import teapot.obj or any obj you like.  
-For better result, scale the object into 9 times bigger than the original one. <br>    
+For better result, scale the object 9 times bigger than the original one. <br>    
 ![Importing teapot](./img/1.PNG)  
   
 
