@@ -1,5 +1,6 @@
 # Instruction for Teapot Bubble Generator usage
 
+
 ## 1. Import teapot.obj or any obj you like.  
 For better result, scale the object into 9 times bigger than the original one. <br>    
 ![Importing teapot](./img/1.PNG)  
@@ -11,7 +12,7 @@ With the window opened, select the object(object mode) in the screen and press "
 
 
 ## 3. Make Nurb sphere
-Decide a desired space for bubbles you want to add. <br>   
+By making the sphere, this decides a desired space for bubbles you want to add. <br>   
 ![Make a range for bubbles](./img/3.PNG)  
 
 
