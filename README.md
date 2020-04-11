@@ -16,4 +16,4 @@ I've not uploaded lecture materials due to copyright issues.
 ---
 
 ## Library
-Python based on Maya python  
+Python 2.7 based on Maya python  
