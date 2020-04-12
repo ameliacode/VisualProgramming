@@ -14,7 +14,7 @@ With the window opened, select the object(object mode) in the screen and press "
 
 
 ## 3. Make Nurb sphere
-By making the sphere, this decides a desired space for bubbles you want to add. <br>
+By making the sphere, this decides a desired space for bubbles you want to add.<br>  
 ![Make a range for bubbles](./img/3.PNG)  
 
 
